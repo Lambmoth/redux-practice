@@ -1,0 +1,49 @@
+.app {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #0c021b;
+  color: white;
+  text-align: center;
+  flex-direction: column;
+  margin: 1em;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button{
+  min-width: 100px;
+  border-radius: 12px;
+  font-size: 1.5em;
+  padding: 10px;
+  margin: 20px;
+  border-width: 0px;
+  color: #0c021b;
+}
+  .plus {
+    background:#00FF9C ;
+  }
+
+  .minus {
+    background: #f80046;
+  }
+
+.negative{
+  font-size: 10em;
+  color: #f80046;
+}
+
+.positive{
+  font-size: 10em;
+  color: #00FF9C;
+}
+
+.pleaseIJustNeedAnOKJob{
+  font-size: 1.5em;
+  color: rgb(190, 142, 223);
+  margin-top: 1em;
+}
